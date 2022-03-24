@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Madan007/madan.git"
   },
-  "keywords": [],
+  "keywords": ["madan", "Node.JS", "CLI"],
   "author": "",
   "license": "ISC",
   "bugs": {
