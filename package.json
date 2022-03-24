@@ -1,0 +1,23 @@
+{
+  "name": "madan",
+  "version": "1.0.0",
+  "description": "Get to know Madan via npm. Just run `npx madan`",
+  "main": "index.js",
+  "bin": {
+    "madan": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madan007/madan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madan007/madan/issues"
+  },
+  "homepage": "https://github.com/Madan007/madan#readme"
+}
