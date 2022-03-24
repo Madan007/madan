@@ -1,6 +1,6 @@
 {
   "name": "madank",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get to know Madan via npm. Just run `npx madan`",
   "main": "index.js",
   "bin": {
