@@ -1,6 +1,6 @@
 {
   "name": "madank",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Get to know Madan via npm. Just run `npx madan`",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/Madan007/madan.git"
   },
-  "keywords": ["madan", "Node.JS", "CLI"],
+  "keywords": [
+    "madan",
+    "Node.JS",
+    "CLI"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
