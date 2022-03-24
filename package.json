@@ -1,7 +1,7 @@
 {
   "name": "madank",
   "version": "2.0.4",
-  "description": "Get to know Madan via npm. Just run `npx madan`",
+  "description": "Get to know Madan via npm. Just run `npx madank`",
   "main": "index.js",
   "bin": {
     "madan": "index.js"
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Madan007/madan#readme",
   "dependencies": {
+    "chalk": "^4.0.0",
     "cli-welcome": "^2.2.2"
   }
 }
