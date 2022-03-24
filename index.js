@@ -1,12 +1,19 @@
 #!/usr/bin/env node
 const welcome = require("cli-welcome");
 const chalk = require("chalk");
+const logsymbols = require("log-symbols");
 const pkgJSON = require("./package.json");
 
 const log = console.log;
 
 const github = `${chalk.hex("6cc644").bold(`GitHub   `)}`;
 const linkedin = `${chalk.hex("0077b5").bold(` LinkedIn `)}`;
+
+//Alerts
+const success = chalk.green.inverse;
+const info = chalk.blue.inverse;
+const warning = chalk.keyword("orange").inverse;
+const error = chalk.red.bold.inverse;
 
 welcome({
   bgColor: `#FADC00`,
@@ -32,4 +39,14 @@ ${chalk.italic.underline(
 
 📚 ${github}: ${chalk.dim(`https://github.com/madan007`)}
 🎖 ${linkedin}: ${chalk.dim(`https://www.linkedin.com/in/madan-k-97606010a/`)}
+`);
+
+log(`
+${logsymbols.success} ${success(` SUCCESS `)} : Thanks for cheking out my CLI.
+
+${logsymbols.info} ${info(` INFO `)} : Can expect for more CLI tools.
+
+${logsymbols.warning} ${warning(` WARNING `)} : Lack of creativity.
+
+${logsymbols.error} ${error(` ERROR `)} : On vacation!.
 `);

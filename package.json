@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Madan007/madan#readme",
   "dependencies": {
     "chalk": "^4.0.0",
-    "cli-welcome": "^2.2.2"
+    "cli-welcome": "^2.2.2",
+    "log-symbols": "^4.0.0"
   }
 }
