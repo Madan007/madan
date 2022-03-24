@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Madan007/madan#readme",
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "cli-welcome": "^2.2.2"
   }
 }
