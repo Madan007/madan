@@ -1,4 +1,4 @@
-# npx madank
+# `npx madank`
 
 > Get to know Madan Kumar using your command line with Node.js
 
